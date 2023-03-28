@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "hospital-api app for coding ninjas skill test",
   "main": "index.js",
-  "engines":{
-    "node":"16.x"
+  "engines": {
+    "node": "16.15.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":" node index.js "
+    "start": " node index.js "
   },
   "author": "Lalit Shendage",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "mongoose": "^7.0.3",
     "netlify-lambda": "^2.0.16",
     "nodemon": "^2.0.22",
-    "serverless-http": "^3.2.0"
+    "serverless-http": "^3.2.0",
+    "vercel": "^28.18.2"
   }
 }
