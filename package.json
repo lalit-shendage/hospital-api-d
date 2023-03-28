@@ -4,11 +4,11 @@
   "description": "hospital-api app for coding ninjas skill test",
   "main": "index.js",
   "engines": {
-    "node": "16.15.0"
+    "node": "16.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node index.js "
+    "start": " node app.js "
   },
   "author": "Lalit Shendage",
   "license": "ISC",
