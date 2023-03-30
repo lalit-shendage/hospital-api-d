@@ -4,26 +4,37 @@
   "description": "hospital-api app for coding ninjas skill test",
   "main": "index.js",
   "engines": {
-    "node": "16.2.0"
+    "node": "16.15.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "start": " node app.js "
   },
   "author": "Lalit Shendage",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chokidar": "^3.5.3",
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
+    "fs": "^0.0.1-security",
     "glob-parent": "^6.0.2",
+    "html-webpack-plugin": "^5.5.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "netlify-lambda": "^2.0.16",
     "nodemon": "^2.0.22",
+    "polyfill": "^0.1.0",
     "serverless-http": "^3.2.0",
     "vercel": "^28.18.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack-cli": "^5.0.1"
   }
 }

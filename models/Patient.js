@@ -7,5 +7,5 @@ const patientSchema = new mongoose.Schema({
 });
 
  const Patient = mongoose.model("Patient", patientSchema);
- Patient.createIndexes();
+//  Patient.createIndexes();
  module.exports =Patient

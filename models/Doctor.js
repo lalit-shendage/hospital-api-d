@@ -22,5 +22,5 @@ const DoctorScehma = new Schema({
 });
 
 const Doctor = mongoose.model("doctor", DoctorScehma);
-Doctor.createIndexes();
+// Doctor.createIndexes();
 module.exports = Doctor;
